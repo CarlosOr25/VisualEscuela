@@ -1,0 +1,15 @@
+{
+  "InsertPersona": "INSERT INTO persona (persona_ci, persona_no, tipo_persona_id) VALUES (@ci, @nombre, @tipo) RETURNING persona_id",
+  "UpdatePersona": "UPDATE persona SET persona_ci = @ci, persona_no = @nombre, tipo_persona_id = @tipo WHERE persona_id = @id",
+  "DeletePersona": "DELETE FROM persona WHERE persona_id = @id",
+  "InsertMateria": "INSERT INTO materia (materia_de) VALUES (@nombre) RETURNING materia_id",
+  "InsertSeccion": "INSERT INTO seccion (seccion_de) VALUES (@nombre) RETURNING seccion_id",
+  "InsertCurso": "INSERT INTO curso (materia_id, seccion_id) VALUES (@materia, @seccion) RETURNING curso_id",
+  "InsertCalificacion": "INSERT INTO calificacion (inscripcion_id, calificacion_de) VALUES (@inscripcion, @nota)",
+  "InsertInscripcion": "INSERT INTO inscripcion (curso_id, persona_id) VALUES (@curso, @persona) RETURNING inscripcion_id",
+  "GetTipoPersonaId": "SELECT tipo_persona_id FROM tipopersona WHERE tipo_persona_de ILIKE @tipo",
+  "GetMateriaId": "SELECT materia_id FROM materia WHERE materia_de ILIKE @nombre",
+  "GetSeccionId": "SELECT seccion_id FROM seccion WHERE seccion_de ILIKE @nombre",
+  "GetInscripcionId": "SELECT i.inscripcion_id FROM inscripcion i JOIN persona p ON i.persona_id = p.persona_id WHERE p.persona_ci = @ci",
+  "ListadoNotas": "SELECT p.persona_ci AS \"CI\", p.persona_no AS \"Estudiante\", m.materia_de AS \"Materia\", c.calificacion_de AS \"Nota\" FROM calificacion c JOIN inscripcion i ON c.inscripcion_id = i.inscripcion_id JOIN persona p ON i.persona_id = p.persona_id JOIN curso cu ON i.curso_id = cu.curso_id JOIN materia m ON cu.materia_id = m.materia_id"
+}
