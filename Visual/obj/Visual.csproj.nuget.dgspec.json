@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\Documents\\Visual\\Visual\\Visual.csproj": {}
+    "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Visual.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\Documents\\Visual\\Visual\\Visual.csproj": {
+    "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Visual.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\Documents\\Visual\\Visual\\Visual.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Visual.csproj",
         "projectName": "Visual",
-        "projectPath": "C:\\Users\\carlo\\Documents\\Visual\\Visual\\Visual.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\Documents\\Visual\\Visual\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Visual.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -52,11 +52,11 @@
           "dependencies": {
             "Npgsql": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.3, )"
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.4, )"
             }
           },
           "imports": [

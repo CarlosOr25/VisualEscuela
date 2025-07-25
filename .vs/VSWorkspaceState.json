@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Visual"
+    "\\Visual",
+    "\\Visual\\Data",
+    "\\Visual\\Data\\Repositories",
+    "\\Visual\\Entities",
+    "\\Visual\\Entities\\Inscripcion",
+    "\\Visual\\Entities\\Mantenimiento",
+    "\\Visual\\Entities\\Persona",
+    "\\Visual\\Entities\\Planilladenotas",
+    "\\Visual\\Entities\\Seccion"
   ],
+  "SelectedNode": "\\Visual\\Visual.csproj",
   "PreviewInSolutionExplorer": false
 }

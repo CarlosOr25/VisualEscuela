@@ -1,0 +1,8 @@
+{
+  "InsertInscripcion": "INSERT INTO inscripcion (curso_id, persona_id) VALUES (@curso, @persona) RETURNING inscripcion_id",
+  "GetInscripcionById": "SELECT * FROM inscripcion WHERE inscripcion_id = @id",
+  "GetInscripcionByCi": "SELECT i.* FROM inscripcion i JOIN persona p ON i.persona_id = p.persona_id WHERE p.persona_ci = @ci",
+  "UpdateInscripcion": "UPDATE inscripcion SET curso_id = @curso, persona_id = @persona WHERE inscripcion_id = @id",
+  "DeleteInscripcion": "DELETE FROM inscripcion WHERE inscripcion_id = @id",
+  "SearchInscripcion": "SELECT i.*, p.persona_no, m.materia_de FROM inscripcion i JOIN persona p ON i.persona_id = p.persona_id JOIN curso c ON i.curso_id = c.curso_id JOIN materia m ON c.materia_id = m.materia_id WHERE p.persona_ci ILIKE @search OR p.persona_no ILIKE @search OR m.materia_de ILIKE @search"
+}

@@ -1,0 +1,8 @@
+{
+  "InsertMateria": "INSERT INTO materia (materia_de) VALUES (@nombre) RETURNING materia_id",
+  "GetMateriaById": "SELECT * FROM materia WHERE materia_id = @id",
+  "GetMateriaByNombre": "SELECT * FROM materia WHERE materia_de ILIKE @nombre",
+  "UpdateMateria": "UPDATE materia SET materia_de = @nombre WHERE materia_id = @id",
+  "DeleteMateria": "DELETE FROM materia WHERE materia_id = @id",
+  "SearchMateria": "SELECT * FROM materia WHERE materia_de ILIKE @search"
+}

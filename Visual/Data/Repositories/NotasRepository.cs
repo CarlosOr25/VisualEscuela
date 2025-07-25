@@ -1,0 +1,150 @@
+using Npgsql;
+using System.Collections.Generic;
+using System.Data;
+using System.IO;
+using System.Text.Json;
+
+namespace Visual.Data.Repositories
+{
+    public class NotasRepository
+    {
+        private const string QUERIES_PATH = @"..\..\..\Queries\NotasQueries.json";
+
+        private Dictionary<string, string> LoadQueries()
+        {
+            return JsonSerializer.Deserialize<Dictionary<string, string>>(File.ReadAllText(QUERIES_PATH));
+        }
+
+        public void Create(int inscripcionId, decimal nota)
+        {
+            var queries = LoadQueries();
+            using (var conn = DBConnection.GetConnection())
+            {
+                conn.Open();
+                using (var cmd = new NpgsqlCommand(queries["InsertCalificacion"], conn))
+                {
+                    cmd.Parameters.AddWithValue("inscripcion", inscripcionId);
+                    cmd.Parameters.AddWithValue("nota", nota);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public dynamic? GetById(int id)
+        {
+            var queries = LoadQueries();
+            using (var conn = DBConnection.GetConnection())
+            {
+                conn.Open();
+                using (var cmd = new NpgsqlCommand(queries["GetCalificacionById"], conn))
+                {
+                    cmd.Parameters.AddWithValue("id", id);
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            return new
+                            {
+                                Id = reader.GetInt32(0),
+                                InscripcionId = reader.GetInt32(1),
+                                Nota = reader.GetDecimal(2)
+                            };
+                        }
+                    }
+                }
+            }
+            return null;
+        }
+
+        public void Update(int id, decimal nota)
+        {
+            var queries = LoadQueries();
+            using (var conn = DBConnection.GetConnection())
+            {
+                conn.Open();
+                using (var cmd = new NpgsqlCommand(queries["UpdateCalificacion"], conn))
+                {
+                    cmd.Parameters.AddWithValue("id", id);
+                    cmd.Parameters.AddWithValue("nota", nota);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public void Delete(int id)
+        {
+            var queries = LoadQueries();
+            using (var conn = DBConnection.GetConnection())
+            {
+                conn.Open();
+                using (var cmd = new NpgsqlCommand(queries["DeleteCalificacion"], conn))
+                {
+                    cmd.Parameters.AddWithValue("id", id);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public List<dynamic> Search(string searchTerm)
+        {
+            var results = new List<dynamic>();
+            var queries = LoadQueries();
+            using (var conn = DBConnection.GetConnection())
+            {
+                conn.Open();
+                using (var cmd = new NpgsqlCommand(queries["SearchCalificacion"], conn))
+                {
+                    cmd.Parameters.AddWithValue("search", $"%{searchTerm}%");
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            results.Add(new
+                            {
+                                Id = reader.GetInt32(0),
+                                InscripcionId = reader.GetInt32(1),
+                                Nota = reader.GetDecimal(2),
+                                Estudiante = reader.GetString(3),
+                                Materia = reader.GetString(4)
+                            });
+                        }
+                    }
+                }
+            }
+            return results;
+        }
+
+        public DataTable GetListadoNotas()
+        {
+            var dt = new DataTable();
+            var queries = LoadQueries();
+            using (var conn = DBConnection.GetConnection())
+            {
+                conn.Open();
+                using (var cmd = new NpgsqlCommand(queries["ListadoNotas"], conn))
+                {
+                    using (var adapter = new NpgsqlDataAdapter(cmd))
+                    {
+                        adapter.Fill(dt);
+                    }
+                }
+            }
+            return dt;
+        }
+
+        public int GetInscripcionId(string ci)
+        {
+            var queries = LoadQueries();
+            using (var conn = DBConnection.GetConnection())
+            {
+                conn.Open();
+                using (var cmd = new NpgsqlCommand(queries["GetInscripcionId"], conn))
+                {
+                    cmd.Parameters.AddWithValue("ci", ci);
+                    var result = cmd.ExecuteScalar();
+                    return result != null ? Convert.ToInt32(result) : 1;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "InsertSeccion": "INSERT INTO seccion (seccion_de) VALUES (@nombre) RETURNING seccion_id",
+  "GetSeccionById": "SELECT * FROM seccion WHERE seccion_id = @id",
+  "GetSeccionByNombre": "SELECT * FROM seccion WHERE seccion_de ILIKE @nombre",
+  "UpdateSeccion": "UPDATE seccion SET seccion_de = @nombre WHERE seccion_id = @id",
+  "DeleteSeccion": "DELETE FROM seccion WHERE seccion_id = @id",
+  "SearchSeccion": "SELECT * FROM seccion WHERE seccion_de ILIKE @search"
+}

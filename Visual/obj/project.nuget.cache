@@ -1,47 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "OOVO1rpLU2U=",
+  "dgSpecHash": "Pc+W/eEoxpM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlo\\Documents\\Visual\\Visual\\Visual.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Visual.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\carlo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1903",
       "level": "Warning",
-      "message": "El paquete \"Npgsql\" 8.0.0 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
-      "projectPath": "C:\\Users\\carlo\\Documents\\Visual\\Visual\\Visual.csproj",
+      "message": "Package 'System.Text.Json' 8.0.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
+      "projectPath": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Visual.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\carlo\\Documents\\Visual\\Visual\\Visual.csproj",
-      "libraryId": "Npgsql",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "El paquete \"System.Text.Json\" 8.0.0 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
-      "projectPath": "C:\\Users\\carlo\\Documents\\Visual\\Visual\\Visual.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\carlo\\Documents\\Visual\\Visual\\Visual.csproj",
-      "libraryId": "System.Text.Json",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "El paquete \"System.Text.Json\" 8.0.0 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
-      "projectPath": "C:\\Users\\carlo\\Documents\\Visual\\Visual\\Visual.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\carlo\\Documents\\Visual\\Visual\\Visual.csproj",
+      "filePath": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Visual.csproj",
       "libraryId": "System.Text.Json",
       "targetGraphs": [
         "net8.0-windows7.0"
