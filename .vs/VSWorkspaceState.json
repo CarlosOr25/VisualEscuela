@@ -2,11 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Visual",
-    "\\Visual\\Data",
-    "\\Visual\\Data\\Repositories",
     "\\Visual\\Entities",
+    "\\Visual\\Entities\\ListadoNotas",
     "\\Visual\\Entities\\Notas",
     "\\Visual\\Entities\\Persona",
+    "\\Visual\\Entities\\Planilladenotas",
     "\\Visual\\Entities\\Seccion",
     "\\Visual\\Main",
     "\\Visual\\Queries"

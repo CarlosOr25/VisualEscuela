@@ -139,6 +139,22 @@ namespace Visual.Data.Repositories
                     }
                 }
             }
+
+            if (dt.Columns.Contains("CI"))
+            {
+                dt.Columns["CI"].ColumnName = "Nombre_temp";
+            }
+
+            if (dt.Columns.Contains("Estudiante"))
+            {
+                dt.Columns["Estudiante"].ColumnName = "CI";
+            }
+
+            if (dt.Columns.Contains("Nombre_temp"))
+            {
+                dt.Columns["Nombre_temp"].ColumnName = "Nombre";
+            }
+
             return dt;
         }
 
