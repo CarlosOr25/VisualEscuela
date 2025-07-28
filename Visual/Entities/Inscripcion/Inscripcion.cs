@@ -1,67 +1,58 @@
 ﻿using System;
 using System.Windows.Forms;
-using Npgsql;
-using System.Text.Json;
-using Visual.Data;
+using Visual.Data.Repositories;
+using System.Linq;
 
 namespace Visual.Entities.Inscripcion
 {
-    public partial class Inscripcion : UserControl
+    public partial class InscripcionControl : UserControl
     {
-        public Inscripcion()
+        private readonly PersonaRepository personaRepo = new PersonaRepository();
+        private readonly CursoRepository cursoRepo = new CursoRepository();
+        private readonly InscripcionRepository _inscripcionRepo = new InscripcionRepository();
+
+        public InscripcionControl()
         {
             InitializeComponent();
-            btnInscribir.Click += BtnInscribir_Click;
+            LoadData();
+            btnInscribir.Click += OnInscribirClicked;
         }
 
-        private void BtnInscribir_Click(object? sender, EventArgs e)
+        private void LoadData()
+        {
+            // Cargar estudiantes (mostrar nombre y CI)
+            var estudiantes = personaRepo.GetByTipo(1);
+            var displayEstudiantes = estudiantes.Select(e => new {
+                Id = e.Id,
+                Display = $"{e.Nombre} - {e.CI}"
+            }).ToList();
+
+            cboEstudiantes.DataSource = displayEstudiantes;
+            cboEstudiantes.DisplayMember = "Display";
+            cboEstudiantes.ValueMember = "Id";
+
+            // Cargar cursos
+            var cursos = cursoRepo.GetAll();
+            var cursosDisplay = cursos.Select(c => new
+            {
+                Id = c.Id,
+                Display = $"{c.MateriaNombre} - {c.SeccionNombre}"
+            }).ToList();
+
+            cboCursos.DataSource = cursosDisplay;
+            cboCursos.DisplayMember = "Display";
+            cboCursos.ValueMember = "Id";
+        }
+
+        private void OnInscribirClicked(object? sender, EventArgs e)
         {
             try
             {
-                using (var conn = DBConnection.GetConnection())
-                {
-                    conn.Open();
+                int estudianteId = Convert.ToInt32(cboEstudiantes.SelectedValue);
+                int cursoId = Convert.ToInt32(cboCursos.SelectedValue);
 
-                    string jsonPath = Path.Combine(Directory.GetCurrentDirectory(), "queries.json");
-                    var json = File.ReadAllText(jsonPath);
-                    var queries = JsonSerializer.Deserialize<Dictionary<string, string>>(json)
-                        ?? new Dictionary<string, string>();
-
-                    using (var transaction = conn.BeginTransaction())
-                    {
-                        try
-                        {
-                            // 1. Crear persona (estudiante)
-                            int personaId;
-                            using (var cmd = new NpgsqlCommand(queries["InsertPersona"], conn))
-                            {
-                                cmd.Transaction = transaction;
-                                cmd.Parameters.AddWithValue("ci", txtCI.Text);
-                                cmd.Parameters.AddWithValue("nombre", $"{txtNombre.Text} {txtApellido.Text}");
-                                cmd.Parameters.AddWithValue("tipo", 1); // 1 = Estudiante
-                                personaId = Convert.ToInt32(cmd.ExecuteScalar());
-                            }
-
-                            // 2. Crear inscripción (simplificado)
-                            int inscripcionId;
-                            using (var cmd = new NpgsqlCommand(queries["InsertInscripcion"], conn))
-                            {
-                                cmd.Transaction = transaction;
-                                cmd.Parameters.AddWithValue("curso", 1); // ID de curso fijo (ejemplo)
-                                cmd.Parameters.AddWithValue("persona", personaId);
-                                inscripcionId = Convert.ToInt32(cmd.ExecuteScalar());
-                            }
-
-                            transaction.Commit();
-                            MessageBox.Show($"Inscripción exitosa! ID: {inscripcionId}");
-                        }
-                        catch (Exception ex)
-                        {
-                            transaction.Rollback();
-                            MessageBox.Show($"Error en inscripción: {ex.Message}");
-                        }
-                    }
-                }
+                int inscripcionId = _inscripcionRepo.Create(cursoId, estudianteId);
+                MessageBox.Show($"Inscripción exitosa! ID: {inscripcionId}");
             }
             catch (Exception ex)
             {

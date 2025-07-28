@@ -23,12 +23,8 @@ namespace Visual.Main
 
         private void ConectarEventos()
         {
-            btnReportes.Click += (s, e) => CargarReportes();
-            btnMantenimiento.Click += (s, e) => CargarMantenimiento();
-            btnInscripcion.Click += (s, e) => CargarInscripcion();
-            btnNotas.Click += (s, e) => CargarNotas();
-
             reportesMenuItem.Click += (s, e) => CargarReportes();
+            mantenimientoMenuItem.Click += (s, e) => CargarMantenimiento();
             inscripcionMenuItem.Click += (s, e) => CargarInscripcion();
             notasMenuItem.Click += (s, e) => CargarNotas();
 
@@ -38,19 +34,31 @@ namespace Visual.Main
             cursoMenuItem.Click += (s, e) => CargarCurso();
         }
 
-        private void CargarPersona() => CargarPantalla(new Persona(), "Gestión de Personas");
+        private void CargarPersona()
+        {
+            var persona = new Persona();
+            CargarPantalla(persona, "Gestión de Personas");
+        }
+
         private void CargarMateria() => CargarPantalla(new Materia(), "Gestión de Materias");
         private void CargarCurso() => CargarPantalla(new Curso(), "Gestión de Cursos");
-        private void CargarInscripcion() => CargarPantalla(new Inscripcion(), "Gestión de Inscripciones");
+        private void CargarInscripcion() => CargarPantalla(new InscripcionControl(), "Gestión de Inscripciones");
         private void CargarNotas() => CargarPantalla(new Notas(), "Gestión de Notas");
         private void CargarSeccion() => CargarPantalla(new Seccion(), "Gestión de Secciones");
 
         private void CargarReportes()
         {
             var reportes = new Reportes();
-            reportes.MostrarPlanillaNotas += (s, e) => CargarPantalla(new Planilladenotas(), "Planilla de Notas");
+            reportes.MostrarProfesores += (s, e) => CargarProfesores();
             reportes.MostrarListadoNotas += (s, e) => CargarPantalla(new ListadoNotas(), "Listado de Notas");
             CargarPantalla(reportes, "Módulo de Reportes");
+        }
+
+        private void CargarProfesores()
+        {
+            var profesores = new Persona();
+            profesores.SetTipoFilter(2);
+            CargarPantalla(profesores, "Profesores");
         }
 
         private void CargarMantenimiento()
@@ -60,7 +68,11 @@ namespace Visual.Main
             mantenimiento.MostrarSeccion += (s, e) => CargarSeccion();
             mantenimiento.MostrarPersona += (s, e) => CargarPersona();
             mantenimiento.MostrarCurso += (s, e) => CargarCurso();
-            CargarPantalla(mantenimiento, "Módulo de Mantenimiento");
+
+            panelContent.Controls.Clear();
+            mantenimiento.Dock = DockStyle.Fill;
+            panelContent.Controls.Add(mantenimiento);
+            tsslStatus.Text = "Módulo de Mantenimiento";
         }
 
         private void CargarPantalla(UserControl pantalla, string mensaje)

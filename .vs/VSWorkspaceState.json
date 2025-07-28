@@ -5,12 +5,12 @@
     "\\Visual\\Data",
     "\\Visual\\Data\\Repositories",
     "\\Visual\\Entities",
-    "\\Visual\\Entities\\Inscripcion",
-    "\\Visual\\Entities\\Mantenimiento",
+    "\\Visual\\Entities\\Notas",
     "\\Visual\\Entities\\Persona",
-    "\\Visual\\Entities\\Planilladenotas",
-    "\\Visual\\Entities\\Seccion"
+    "\\Visual\\Entities\\Seccion",
+    "\\Visual\\Main",
+    "\\Visual\\Queries"
   ],
-  "SelectedNode": "\\Visual\\Visual.csproj",
+  "SelectedNode": "\\Visual\\Data\\Repositories\\NotasRepository.cs",
   "PreviewInSolutionExplorer": false
 }

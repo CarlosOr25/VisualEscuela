@@ -5,13 +5,13 @@ namespace Visual.Entities.Reportes
 {
     public partial class Reportes : UserControl
     {
-        public event EventHandler? MostrarPlanillaNotas;
+        public event EventHandler? MostrarProfesores;
         public event EventHandler? MostrarListadoNotas;
 
         public Reportes()
         {
             InitializeComponent();
-            btnPlanillaNotas.Click += (s, e) => MostrarPlanillaNotas?.Invoke(this, EventArgs.Empty);
+            btnProfesores.Click += (s, e) => MostrarProfesores?.Invoke(this, EventArgs.Empty);
             btnListadoNotas.Click += (s, e) => MostrarListadoNotas?.Invoke(this, EventArgs.Empty);
         }
     }

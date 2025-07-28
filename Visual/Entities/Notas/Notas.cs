@@ -1,22 +1,22 @@
 ﻿using System;
 using System.Windows.Forms;
 using Visual.Data.Repositories;
-using System.Collections.Generic;
 using System.Linq;
-using Visual.Entities.ListadoNotas;
 
 namespace Visual.Entities.Notas
 {
     public partial class Notas : UserControl
     {
         private readonly NotasRepository _repo = new NotasRepository();
+        private readonly MateriaRepository _materiaRepo = new MateriaRepository();
+        private readonly InscripcionRepository _inscripcionRepo = new InscripcionRepository();
         private int? _currentId = null;
 
         public Notas()
         {
             InitializeComponent();
+            CargarMaterias();
             SetupCRUDControls();
-            LoadDataGridView("");
         }
 
         private void SetupCRUDControls()
@@ -26,6 +26,37 @@ namespace Visual.Entities.Notas
             dgvNotas.SelectionChanged += DgvNotas_SelectionChanged;
             btnSalir.Click += (s, e) => this.Parent?.Controls.Remove(this);
             btnListado.Click += (s, e) => CargarListadoNotas();
+            cboMaterias.SelectedValueChanged += CboMaterias_SelectedValueChanged;
+        }
+
+        private void CboMaterias_SelectedValueChanged(object? sender, EventArgs e)
+        {
+            if (cboMaterias.SelectedValue != null)
+            {
+                int materiaId = Convert.ToInt32(cboMaterias.SelectedValue);
+                CargarEstudiantesPorMateria(materiaId);
+            }
+        }
+
+        private void CargarMaterias()
+        {
+            var materias = _materiaRepo.Search("");
+            cboMaterias.DataSource = materias;
+            cboMaterias.DisplayMember = "Nombre";
+            cboMaterias.ValueMember = "Id";
+        }
+
+        private void CargarEstudiantesPorMateria(int materiaId)
+        {
+            var estudiantes = _inscripcionRepo.GetEstudiantesByMateria(materiaId);
+            var displayEstudiantes = estudiantes.Select(est => new {
+                Id = est.Id,
+                Display = $"{est.Nombre} - {est.CI}"
+            }).ToList();
+
+            cboEstudiantes.DataSource = displayEstudiantes;
+            cboEstudiantes.DisplayMember = "Display";
+            cboEstudiantes.ValueMember = "Id";
         }
 
         private void LoadDataGridView(string searchTerm)
@@ -40,7 +71,6 @@ namespace Visual.Entities.Notas
             {
                 var row = dgvNotas.SelectedRows[0];
                 _currentId = Convert.ToInt32(row.Cells["Id"].Value);
-                txtCI.Text = row.Cells["Estudiante"].Value?.ToString()?.Split('-')[0].Trim() ?? "";
                 txtNota.Text = row.Cells["Nota"].Value?.ToString() ?? "";
             }
         }
@@ -49,9 +79,17 @@ namespace Visual.Entities.Notas
         {
             try
             {
-                int inscripcionId = _repo.GetInscripcionId(txtCI.Text);
+                // Validar selección
+                if (cboEstudiantes.SelectedValue == null)
+                {
+                    MessageBox.Show("Seleccione un estudiante");
+                    return;
+                }
+
+                int estudianteId = Convert.ToInt32(cboEstudiantes.SelectedValue);
                 decimal nota = decimal.Parse(txtNota.Text);
 
+                int inscripcionId = _inscripcionRepo.GetInscripcionIdByEstudiante(estudianteId);
                 _repo.Create(inscripcionId, nota);
                 MessageBox.Show("Nota registrada correctamente");
                 LoadDataGridView("");
@@ -65,66 +103,6 @@ namespace Visual.Entities.Notas
         private void BtnBuscar_Click(object? sender, EventArgs e)
         {
             LoadDataGridView(txtBuscar.Text);
-        }
-
-        private void BtnActualizar_Click(object? sender, EventArgs e)
-        {
-            if (!_currentId.HasValue)
-            {
-                MessageBox.Show("Seleccione una nota primero");
-                return;
-            }
-
-            try
-            {
-                decimal nota = decimal.Parse(txtNota.Text);
-                _repo.Update(_currentId.Value, nota);
-                MessageBox.Show("Nota actualizada correctamente");
-                LoadDataGridView("");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error: {ex.Message}");
-            }
-        }
-
-        private void BtnEliminar_Click(object? sender, EventArgs e)
-        {
-            if (!_currentId.HasValue)
-            {
-                MessageBox.Show("Seleccione una nota primero");
-                return;
-            }
-
-            if (MessageBox.Show("¿Está seguro de eliminar esta nota?", "Confirmar",
-                MessageBoxButtons.YesNo) == DialogResult.Yes)
-            {
-                try
-                {
-                    _repo.Delete(_currentId.Value);
-                    MessageBox.Show("Nota eliminada correctamente");
-                    _currentId = null;
-                    LoadDataGridView("");
-                    LimpiarCampos();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Error: {ex.Message}");
-                }
-            }
-        }
-
-        private void BtnLimpiar_Click(object? sender, EventArgs e)
-        {
-            LimpiarCampos();
-        }
-
-        private void LimpiarCampos()
-        {
-            txtCI.Text = "";
-            txtNota.Text = "";
-            txtBuscar.Text = "";
-            _currentId = null;
         }
 
         private void CargarListadoNotas()

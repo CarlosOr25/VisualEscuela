@@ -8,11 +8,21 @@ namespace Visual.Data.Repositories
 {
     public class NotasRepository
     {
-        private const string QUERIES_PATH = @"..\..\..\Queries\NotasQueries.json";
+        private const string QUERIES_PATH = @"Queries\NotasQueries.json";
 
         private Dictionary<string, string> LoadQueries()
         {
-            return JsonSerializer.Deserialize<Dictionary<string, string>>(File.ReadAllText(QUERIES_PATH));
+            try
+            {
+                string fullPath = Path.Combine(Directory.GetCurrentDirectory(), QUERIES_PATH);
+                string json = File.ReadAllText(fullPath);
+                return JsonSerializer.Deserialize<Dictionary<string, string>>(json)
+                    ?? new Dictionary<string, string>();
+            }
+            catch
+            {
+                return new Dictionary<string, string>();
+            }
         }
 
         public void Create(int inscripcionId, decimal nota)
@@ -102,10 +112,10 @@ namespace Visual.Data.Repositories
                             results.Add(new
                             {
                                 Id = reader.GetInt32(0),
-                                InscripcionId = reader.GetInt32(1),
                                 Nota = reader.GetDecimal(2),
-                                Estudiante = reader.GetString(3),
-                                Materia = reader.GetString(4)
+                                Nombre = reader.GetString(4),  // Nombre del estudiante
+                                CI = reader.GetString(3),      // CI del estudiante
+                                Materia = reader.GetString(5)            // Materia
                             });
                         }
                     }
@@ -145,6 +155,24 @@ namespace Visual.Data.Repositories
                     return result != null ? Convert.ToInt32(result) : 1;
                 }
             }
+        }
+
+        public DataTable GetPlanillaNotas()
+        {
+            var dt = new DataTable();
+            var queries = LoadQueries();
+            using (var conn = DBConnection.GetConnection())
+            {
+                conn.Open();
+                using (var cmd = new NpgsqlCommand(queries["PlanillaNotas"], conn))
+                {
+                    using (var adapter = new NpgsqlDataAdapter(cmd))
+                    {
+                        adapter.Fill(dt);
+                    }
+                }
+            }
+            return dt;
         }
     }
 }

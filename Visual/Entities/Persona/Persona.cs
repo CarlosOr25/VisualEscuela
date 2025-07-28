@@ -10,11 +10,19 @@ namespace Visual.Entities.Persona
     {
         private readonly PersonaRepository _repo = new PersonaRepository();
         private int? _currentId = null;
+        private int? _tipoFilterId = null;  // Nuevo: filtro por ID de tipo
 
         public Persona()
         {
             InitializeComponent();
             SetupCRUDControls();
+            LoadDataGridView("");
+        }
+
+        // Nuevo: método para establecer filtro por ID de tipo
+        public void SetTipoFilter(int tipoId)
+        {
+            _tipoFilterId = tipoId;
             LoadDataGridView("");
         }
 
@@ -30,7 +38,28 @@ namespace Visual.Entities.Persona
 
         private void LoadDataGridView(string searchTerm)
         {
-            var data = _repo.Search(searchTerm);
+            List<dynamic> data;
+
+            // Aplicar filtro si está configurado
+            if (_tipoFilterId.HasValue)
+            {
+                data = _repo.GetByTipo(_tipoFilterId.Value);
+
+                if (!string.IsNullOrEmpty(searchTerm))
+                {
+                    string term = searchTerm.ToLower();
+                    data = data
+                        .Where(p =>
+                            (p.CI != null && p.CI.ToLower().Contains(term)) ||
+                            (p.Nombre != null && p.Nombre.ToLower().Contains(term)))
+                        .ToList();
+                }
+            }
+            else
+            {
+                data = _repo.Search(searchTerm);
+            }
+
             dgvPersonas.DataSource = data;
         }
 
@@ -41,10 +70,7 @@ namespace Visual.Entities.Persona
                 var row = dgvPersonas.SelectedRows[0];
                 _currentId = Convert.ToInt32(row.Cells["Id"].Value);
                 txtCI.Text = row.Cells["CI"].Value?.ToString() ?? "";
-
-                var nombreCompleto = row.Cells["Nombre"].Value?.ToString()?.Split(' ') ?? Array.Empty<string>();
-                txtNombre.Text = nombreCompleto.Length > 0 ? nombreCompleto[0] : "";
-                txtApellido.Text = nombreCompleto.Length > 1 ? nombreCompleto[1] : "";
+                txtNombre.Text = row.Cells["Nombre"].Value?.ToString() ?? "";
                 txtTipo.Text = row.Cells["TipoId"].Value?.ToString() ?? "";
             }
         }
@@ -54,10 +80,10 @@ namespace Visual.Entities.Persona
             try
             {
                 string ci = txtCI.Text;
-                string nombreCompleto = $"{txtNombre.Text} {txtApellido.Text}";
+                string nombre = txtNombre.Text;
                 int tipoId = _repo.GetTipoPersonaId(txtTipo.Text);
 
-                int id = _repo.Create(ci, nombreCompleto, tipoId);
+                int id = _repo.Create(ci, nombre, tipoId);
                 _currentId = id;
                 MessageBox.Show($"Persona creada con ID: {id}");
                 LoadDataGridView("");
@@ -84,10 +110,10 @@ namespace Visual.Entities.Persona
             try
             {
                 string ci = txtCI.Text;
-                string nombreCompleto = $"{txtNombre.Text} {txtApellido.Text}";
+                string nombre = txtNombre.Text;
                 int tipoId = _repo.GetTipoPersonaId(txtTipo.Text);
 
-                _repo.Update(_currentId.Value, ci, nombreCompleto, tipoId);
+                _repo.Update(_currentId.Value, ci, nombre, tipoId);
                 MessageBox.Show("Persona actualizada correctamente");
                 LoadDataGridView("");
             }
@@ -132,7 +158,6 @@ namespace Visual.Entities.Persona
         {
             txtCI.Text = "";
             txtNombre.Text = "";
-            txtApellido.Text = "";
             txtTipo.Text = "";
             txtBuscar.Text = "";
             _currentId = null;

@@ -145,5 +145,33 @@ namespace Visual.Data.Repositories
                 }
             }
         }
+
+        public List<dynamic> GetAll()
+        {
+            var results = new List<dynamic>();
+            var queries = LoadQueries();
+            using (var conn = DBConnection.GetConnection())
+            {
+                conn.Open();
+                using (var cmd = new NpgsqlCommand(queries["GetAllCursos"], conn))
+                {
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            results.Add(new
+                            {
+                                Id = reader.GetInt32(0),
+                                MateriaId = reader.GetInt32(1),
+                                SeccionId = reader.GetInt32(2),
+                                MateriaNombre = reader.GetString(3),
+                                SeccionNombre = reader.GetString(4)
+                            });
+                        }
+                    }
+                }
+            }
+            return results;
+        }
     }
 }

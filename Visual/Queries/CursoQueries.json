@@ -6,5 +6,6 @@
   "DeleteCurso": "DELETE FROM curso WHERE curso_id = @id",
   "SearchCurso": "SELECT c.*, m.materia_de, s.seccion_de FROM curso c JOIN materia m ON c.materia_id = m.materia_id JOIN seccion s ON c.seccion_id = s.seccion_id WHERE m.materia_de ILIKE @search OR s.seccion_de ILIKE @search",
   "GetMateriaId": "SELECT materia_id FROM materia WHERE materia_de ILIKE @nombre",
-  "GetSeccionId": "SELECT seccion_id FROM seccion WHERE seccion_de ILIKE @nombre"
+  "GetSeccionId": "SELECT seccion_id FROM seccion WHERE seccion_de ILIKE @nombre",
+  "GetAllCursos": "SELECT c.*, m.materia_de, s.seccion_de FROM curso c JOIN materia m ON c.materia_id = m.materia_id JOIN seccion s ON c.seccion_id = s.seccion_id"
 }

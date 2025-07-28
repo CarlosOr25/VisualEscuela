@@ -32,7 +32,6 @@ C:\Users\PC\Desktop\Visual\Visual\obj\Debug\net8.0-windows\Visual.genruntimeconf
 C:\Users\PC\Desktop\Visual\Visual\obj\Debug\net8.0-windows\ref\Visual.dll
 C:\Users\PC\Desktop\Visual\VisualEscuela\Visual\obj\Debug\net8.0-windows\Visual.csproj.AssemblyReference.cache
 C:\Users\PC\Desktop\Visual\VisualEscuela\Visual\obj\Debug\net8.0-windows\Visual.Entities.Curso.Curso.resources
-C:\Users\PC\Desktop\Visual\VisualEscuela\Visual\obj\Debug\net8.0-windows\Visual.Entities.Inscripcion.Inscripcion.resources
 C:\Users\PC\Desktop\Visual\VisualEscuela\Visual\obj\Debug\net8.0-windows\Visual.Entities.Mantenimiento.Mantenimiento.resources
 C:\Users\PC\Desktop\Visual\VisualEscuela\Visual\obj\Debug\net8.0-windows\Visual.Entities.Materia.Materia.resources
 C:\Users\PC\Desktop\Visual\VisualEscuela\Visual\obj\Debug\net8.0-windows\Visual.Entities.Notas.Notas.resources
@@ -67,3 +66,4 @@ C:\Users\PC\Desktop\Visual\VisualEscuela\Visual\obj\Debug\net8.0-windows\refint\
 C:\Users\PC\Desktop\Visual\VisualEscuela\Visual\obj\Debug\net8.0-windows\Visual.pdb
 C:\Users\PC\Desktop\Visual\VisualEscuela\Visual\obj\Debug\net8.0-windows\Visual.genruntimeconfig.cache
 C:\Users\PC\Desktop\Visual\VisualEscuela\Visual\obj\Debug\net8.0-windows\ref\Visual.dll
+C:\Users\PC\Desktop\Visual\VisualEscuela\Visual\obj\Debug\net8.0-windows\Visual.Entities.Inscripcion.InscripcionControl.resources

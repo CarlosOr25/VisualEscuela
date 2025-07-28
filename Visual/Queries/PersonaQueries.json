@@ -5,5 +5,6 @@
   "UpdatePersona": "UPDATE persona SET persona_ci = @ci, persona_no = @nombre, tipo_persona_id = @tipo WHERE persona_id = @id",
   "DeletePersona": "DELETE FROM persona WHERE persona_id = @id",
   "SearchPersona": "SELECT * FROM persona WHERE persona_ci ILIKE @search OR persona_no ILIKE @search",
-  "GetTipoPersonaId": "SELECT tipo_persona_id FROM tipopersona WHERE tipo_persona_de ILIKE @tipo"
+  "GetTipoPersonaId": "SELECT tipo_persona_id FROM tipopersona WHERE tipo_persona_de ILIKE @tipo",
+  "GetPersonasByTipo": "SELECT * FROM persona WHERE tipo_persona_id = @tipo"
 }

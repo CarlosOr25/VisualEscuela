@@ -9,12 +9,15 @@ namespace Visual.Entities.Curso
     public partial class Curso : UserControl
     {
         private readonly CursoRepository _repo = new CursoRepository();
+        private readonly MateriaRepository _materiaRepo = new MateriaRepository();
+        private readonly SeccionRepository _seccionRepo = new SeccionRepository();
         private int? _currentId = null;
 
         public Curso()
         {
             InitializeComponent();
             SetupCRUDControls();
+            LoadComboBoxes();
             LoadDataGridView("");
         }
 
@@ -26,6 +29,21 @@ namespace Visual.Entities.Curso
             btnEliminar.Click += BtnEliminar_Click;
             btnLimpiar.Click += BtnLimpiar_Click;
             dgvCursos.SelectionChanged += DgvCursos_SelectionChanged;
+        }
+
+        private void LoadComboBoxes()
+        {
+            // Cargar materias
+            var materias = _materiaRepo.Search("");
+            cboMateria.DataSource = materias;
+            cboMateria.DisplayMember = "Nombre";
+            cboMateria.ValueMember = "Id";
+
+            // Cargar secciones
+            var secciones = _seccionRepo.Search("");
+            cboSeccion.DataSource = secciones;
+            cboSeccion.DisplayMember = "Nombre";
+            cboSeccion.ValueMember = "Id";
         }
 
         private void LoadDataGridView(string searchTerm)
@@ -40,8 +58,17 @@ namespace Visual.Entities.Curso
             {
                 var row = dgvCursos.SelectedRows[0];
                 _currentId = Convert.ToInt32(row.Cells["Id"].Value);
-                txtMateria.Text = row.Cells["MateriaNombre"].Value?.ToString() ?? "";
-                txtSeccion.Text = row.Cells["SeccionNombre"].Value?.ToString() ?? "";
+
+                // Manejo de posibles valores nulos
+                if (row.Cells["MateriaId"].Value != null)
+                {
+                    cboMateria.SelectedValue = Convert.ToInt32(row.Cells["MateriaId"].Value);
+                }
+
+                if (row.Cells["SeccionId"].Value != null)
+                {
+                    cboSeccion.SelectedValue = Convert.ToInt32(row.Cells["SeccionId"].Value);
+                }
             }
         }
 
@@ -49,8 +76,15 @@ namespace Visual.Entities.Curso
         {
             try
             {
-                int materiaId = _repo.GetMateriaId(txtMateria.Text);
-                int seccionId = _repo.GetSeccionId(txtSeccion.Text);
+                // Validar selección
+                if (cboMateria.SelectedValue == null || cboSeccion.SelectedValue == null)
+                {
+                    MessageBox.Show("Seleccione materia y sección");
+                    return;
+                }
+
+                int materiaId = Convert.ToInt32(cboMateria.SelectedValue);
+                int seccionId = Convert.ToInt32(cboSeccion.SelectedValue);
 
                 int id = _repo.Create(materiaId, seccionId);
                 _currentId = id;
@@ -78,8 +112,15 @@ namespace Visual.Entities.Curso
 
             try
             {
-                int materiaId = _repo.GetMateriaId(txtMateria.Text);
-                int seccionId = _repo.GetSeccionId(txtSeccion.Text);
+                // Validar selección
+                if (cboMateria.SelectedValue == null || cboSeccion.SelectedValue == null)
+                {
+                    MessageBox.Show("Seleccione materia y sección");
+                    return;
+                }
+
+                int materiaId = Convert.ToInt32(cboMateria.SelectedValue);
+                int seccionId = Convert.ToInt32(cboSeccion.SelectedValue);
 
                 _repo.Update(_currentId.Value, materiaId, seccionId);
                 MessageBox.Show("Curso actualizado correctamente");
@@ -124,8 +165,8 @@ namespace Visual.Entities.Curso
 
         private void LimpiarCampos()
         {
-            txtMateria.Text = "";
-            txtSeccion.Text = "";
+            cboMateria.SelectedIndex = -1;
+            cboSeccion.SelectedIndex = -1;
             txtBuscar.Text = "";
             _currentId = null;
         }

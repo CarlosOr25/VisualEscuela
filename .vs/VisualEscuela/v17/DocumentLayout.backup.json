@@ -3,104 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Visual.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Visual.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\NotasRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Data\\Repositories\\NotasRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Seccion\\Seccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Seccion\\Seccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Main\\MainForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Main\\MainForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Seccion\\Seccion.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Seccion\\Seccion.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Reportes\\Reportes.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Reportes\\Reportes.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Planilladenotas\\Planilladenotas.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Planilladenotas\\Planilladenotas.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Persona\\Persona.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Persona\\Persona.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Notas\\Notas.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Notas\\Notas.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Materia\\Materia.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Materia\\Materia.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Mantenimiento\\Mantenimiento.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Mantenimiento\\Mantenimiento.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\ListadoNotas\\ListadoNotas.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\ListadoNotas\\ListadoNotas.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Inscripcion\\Inscripcion.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Inscripcion\\Inscripcion.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Curso\\Curso.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Curso\\Curso.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Notas\\Notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Notas\\Notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Planilladenotas\\Planilladenotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Planilladenotas\\Planilladenotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Reportes\\Reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Reportes\\Reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\ListadoNotas\\ListadoNotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\ListadoNotas\\ListadoNotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Mantenimiento\\Mantenimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Mantenimiento\\Mantenimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Main\\MainForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Main\\MainForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Queries\\NotasQueries.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Queries\\NotasQueries.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Persona\\Persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Persona\\Persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\PersonaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Data\\Repositories\\PersonaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Main\\MainForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Main\\MainForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\MateriaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Data\\Repositories\\MateriaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Mantenimiento\\Mantenimiento.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Mantenimiento\\Mantenimiento.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Materia\\Materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Materia\\Materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Notas\\Notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Notas\\Notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Notas\\Notas.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Notas\\Notas.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Reportes\\Reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Reportes\\Reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Reportes\\Reportes.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Reportes\\Reportes.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Queries\\InscripcionQueries.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Queries\\InscripcionQueries.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\InscripcionRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Data\\Repositories\\InscripcionRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Curso\\Curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -109,6 +57,82 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Inscripcion\\Inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Inscripcion\\Inscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Curso\\Curso.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Curso\\Curso.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Persona\\Persona.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Persona\\Persona.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Inscripcion\\Inscripcion.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Inscripcion\\Inscripcion.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Queries\\CursoQueries.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Queries\\CursoQueries.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Queries\\PersonaQueries.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Queries\\PersonaQueries.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\CursoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Data\\Repositories\\CursoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\PersonaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Data\\Repositories\\PersonaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Planilladenotas\\Planilladenotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Planilladenotas\\Planilladenotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\ListadoNotas\\ListadoNotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\ListadoNotas\\ListadoNotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Visual.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Visual.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Seccion\\Seccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Seccion\\Seccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Seccion\\Seccion.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Seccion\\Seccion.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Planilladenotas\\Planilladenotas.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Planilladenotas\\Planilladenotas.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Materia\\Materia.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Materia\\Materia.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\ListadoNotas\\ListadoNotas.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\ListadoNotas\\ListadoNotas.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Mantenimiento\\Mantenimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Mantenimiento\\Mantenimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\MateriaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Data\\Repositories\\MateriaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Materia\\Materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Visual\\Entities\\Materia\\Materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,50 +142,306 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Seccion.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Seccion\\Seccion.Designer.cs",
-              "RelativeDocumentMoniker": "Visual\\Entities\\Seccion\\Seccion.Designer.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Seccion\\Seccion.Designer.cs",
-              "RelativeToolTip": "Visual\\Entities\\Seccion\\Seccion.Designer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Reportes.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Reportes\\Reportes.cs",
+              "RelativeDocumentMoniker": "Visual\\Entities\\Reportes\\Reportes.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Reportes\\Reportes.cs",
+              "RelativeToolTip": "Visual\\Entities\\Reportes\\Reportes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:53:44.739Z",
+              "WhenOpened": "2025-07-25T00:28:22.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Main\\MainForm.cs",
+              "RelativeDocumentMoniker": "Visual\\Main\\MainForm.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Main\\MainForm.cs",
+              "RelativeToolTip": "Visual\\Main\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:12:32.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Planilladenotas.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Planilladenotas\\Planilladenotas.Designer.cs",
-              "RelativeDocumentMoniker": "Visual\\Entities\\Planilladenotas\\Planilladenotas.Designer.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Planilladenotas\\Planilladenotas.Designer.cs",
-              "RelativeToolTip": "Visual\\Entities\\Planilladenotas\\Planilladenotas.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Title": "Notas.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Notas\\Notas.cs",
+              "RelativeDocumentMoniker": "Visual\\Entities\\Notas\\Notas.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Notas\\Notas.cs",
+              "RelativeToolTip": "Visual\\Entities\\Notas\\Notas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:10:26.026Z",
+              "WhenOpened": "2025-07-25T00:08:08.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotasRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\NotasRepository.cs",
+              "RelativeDocumentMoniker": "Visual\\Data\\Repositories\\NotasRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\NotasRepository.cs",
+              "RelativeToolTip": "Visual\\Data\\Repositories\\NotasRepository.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAHQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:36:19.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Persona\\Persona.cs",
+              "RelativeDocumentMoniker": "Visual\\Entities\\Persona\\Persona.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Persona\\Persona.cs",
+              "RelativeToolTip": "Visual\\Entities\\Persona\\Persona.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAYwKUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:10:12.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotasQueries.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Queries\\NotasQueries.json",
+              "RelativeDocumentMoniker": "Visual\\Queries\\NotasQueries.json",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Queries\\NotasQueries.json",
+              "RelativeToolTip": "Visual\\Queries\\NotasQueries.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T16:27:23.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Main\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "Visual\\Main\\MainForm.Designer.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Main\\MainForm.Designer.cs",
               "RelativeToolTip": "Visual\\Main\\MainForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T00:12:12.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "Mantenimiento.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Mantenimiento\\Mantenimiento.Designer.cs",
+              "RelativeDocumentMoniker": "Visual\\Entities\\Mantenimiento\\Mantenimiento.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Mantenimiento\\Mantenimiento.Designer.cs",
+              "RelativeToolTip": "Visual\\Entities\\Mantenimiento\\Mantenimiento.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:08:58.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Reportes.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Reportes\\Reportes.Designer.cs",
+              "RelativeDocumentMoniker": "Visual\\Entities\\Reportes\\Reportes.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Reportes\\Reportes.Designer.cs",
+              "RelativeToolTip": "Visual\\Entities\\Reportes\\Reportes.Designer.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:38:14.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Notas.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Notas\\Notas.Designer.cs",
+              "RelativeDocumentMoniker": "Visual\\Entities\\Notas\\Notas.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Notas\\Notas.Designer.cs",
+              "RelativeToolTip": "Visual\\Entities\\Notas\\Notas.Designer.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAYwLIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:05:05.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InscripcionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\InscripcionRepository.cs",
+              "RelativeDocumentMoniker": "Visual\\Data\\Repositories\\InscripcionRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\InscripcionRepository.cs",
+              "RelativeToolTip": "Visual\\Data\\Repositories\\InscripcionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T16:15:51.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Inscripcion.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Inscripcion\\Inscripcion.cs",
+              "RelativeDocumentMoniker": "Visual\\Entities\\Inscripcion\\Inscripcion.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Inscripcion\\Inscripcion.cs",
+              "RelativeToolTip": "Visual\\Entities\\Inscripcion\\Inscripcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T23:58:54.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Curso.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Curso\\Curso.Designer.cs",
+              "RelativeDocumentMoniker": "Visual\\Entities\\Curso\\Curso.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Curso\\Curso.Designer.cs",
+              "RelativeToolTip": "Visual\\Entities\\Curso\\Curso.Designer.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAYwKsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:01:54.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Curso\\Curso.cs",
+              "RelativeDocumentMoniker": "Visual\\Entities\\Curso\\Curso.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Curso\\Curso.cs",
+              "RelativeToolTip": "Visual\\Entities\\Curso\\Curso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:02:07.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InscripcionQueries.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Queries\\InscripcionQueries.json",
+              "RelativeDocumentMoniker": "Visual\\Queries\\InscripcionQueries.json",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Queries\\InscripcionQueries.json",
+              "RelativeToolTip": "Visual\\Queries\\InscripcionQueries.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-28T17:20:44.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Persona.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Persona\\Persona.Designer.cs",
+              "RelativeDocumentMoniker": "Visual\\Entities\\Persona\\Persona.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Persona\\Persona.Designer.cs",
+              "RelativeToolTip": "Visual\\Entities\\Persona\\Persona.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:52:42.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Inscripcion.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Inscripcion\\Inscripcion.Designer.cs",
+              "RelativeDocumentMoniker": "Visual\\Entities\\Inscripcion\\Inscripcion.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Inscripcion\\Inscripcion.Designer.cs",
+              "RelativeToolTip": "Visual\\Entities\\Inscripcion\\Inscripcion.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T23:58:26.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CursoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\CursoRepository.cs",
+              "RelativeDocumentMoniker": "Visual\\Data\\Repositories\\CursoRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\CursoRepository.cs",
+              "RelativeToolTip": "Visual\\Data\\Repositories\\CursoRepository.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAYwK4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T16:40:40.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PersonaQueries.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Queries\\PersonaQueries.json",
+              "RelativeDocumentMoniker": "Visual\\Queries\\PersonaQueries.json",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Queries\\PersonaQueries.json",
+              "RelativeToolTip": "Visual\\Queries\\PersonaQueries.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T16:41:13.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CursoQueries.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Queries\\CursoQueries.json",
+              "RelativeDocumentMoniker": "Visual\\Queries\\CursoQueries.json",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Queries\\CursoQueries.json",
+              "RelativeToolTip": "Visual\\Queries\\CursoQueries.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T16:41:35.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PersonaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\PersonaRepository.cs",
+              "RelativeDocumentMoniker": "Visual\\Data\\Repositories\\PersonaRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\PersonaRepository.cs",
+              "RelativeToolTip": "Visual\\Data\\Repositories\\PersonaRepository.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAYwLwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:07:38.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ListadoNotas.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\ListadoNotas\\ListadoNotas.cs",
+              "RelativeDocumentMoniker": "Visual\\Entities\\ListadoNotas\\ListadoNotas.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\ListadoNotas\\ListadoNotas.cs",
+              "RelativeToolTip": "Visual\\Entities\\ListadoNotas\\ListadoNotas.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:08:44.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Visual.csproj",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Visual.csproj",
+              "RelativeDocumentMoniker": "Visual\\Visual.csproj",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Visual.csproj",
+              "RelativeToolTip": "Visual\\Visual.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-25T00:13:02.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Planilladenotas.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Planilladenotas\\Planilladenotas.cs",
+              "RelativeDocumentMoniker": "Visual\\Entities\\Planilladenotas\\Planilladenotas.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Planilladenotas\\Planilladenotas.cs",
+              "RelativeToolTip": "Visual\\Entities\\Planilladenotas\\Planilladenotas.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:28:38.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Seccion.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Seccion\\Seccion.cs",
               "RelativeDocumentMoniker": "Visual\\Entities\\Seccion\\Seccion.cs",
@@ -169,51 +449,35 @@
               "RelativeToolTip": "Visual\\Entities\\Seccion\\Seccion.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAG8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:36:55.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T00:36:55.545Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NotasRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\NotasRepository.cs",
-              "RelativeDocumentMoniker": "Visual\\Data\\Repositories\\NotasRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\NotasRepository.cs",
-              "RelativeToolTip": "Visual\\Data\\Repositories\\NotasRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 26,
+              "Title": "Planilladenotas.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Planilladenotas\\Planilladenotas.Designer.cs",
+              "RelativeDocumentMoniker": "Visual\\Entities\\Planilladenotas\\Planilladenotas.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Planilladenotas\\Planilladenotas.Designer.cs",
+              "RelativeToolTip": "Visual\\Entities\\Planilladenotas\\Planilladenotas.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:36:19.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T00:10:26.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Visual.csproj",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Visual.csproj",
-              "RelativeDocumentMoniker": "Visual\\Visual.csproj",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Visual.csproj",
-              "RelativeToolTip": "Visual\\Visual.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-25T00:13:02.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Persona.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Persona\\Persona.Designer.cs",
-              "RelativeDocumentMoniker": "Visual\\Entities\\Persona\\Persona.Designer.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Persona\\Persona.Designer.cs",
-              "RelativeToolTip": "Visual\\Entities\\Persona\\Persona.Designer.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "Seccion.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Seccion\\Seccion.Designer.cs",
+              "RelativeDocumentMoniker": "Visual\\Entities\\Seccion\\Seccion.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Seccion\\Seccion.Designer.cs",
+              "RelativeToolTip": "Visual\\Entities\\Seccion\\Seccion.Designer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:52:42.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T00:53:44.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 27,
               "Title": "Materia.Designer.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Materia\\Materia.Designer.cs",
               "RelativeDocumentMoniker": "Visual\\Entities\\Materia\\Materia.Designer.cs",
@@ -221,38 +485,11 @@
               "RelativeToolTip": "Visual\\Entities\\Materia\\Materia.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:02:31.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T00:02:31.641Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Mantenimiento.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Mantenimiento\\Mantenimiento.Designer.cs",
-              "RelativeDocumentMoniker": "Visual\\Entities\\Mantenimiento\\Mantenimiento.Designer.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Mantenimiento\\Mantenimiento.Designer.cs",
-              "RelativeToolTip": "Visual\\Entities\\Mantenimiento\\Mantenimiento.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:08:58.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Reportes.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Reportes\\Reportes.Designer.cs",
-              "RelativeDocumentMoniker": "Visual\\Entities\\Reportes\\Reportes.Designer.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Reportes\\Reportes.Designer.cs",
-              "RelativeToolTip": "Visual\\Entities\\Reportes\\Reportes.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:38:14.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 28,
               "Title": "ListadoNotas.Designer.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\ListadoNotas\\ListadoNotas.Designer.cs",
               "RelativeDocumentMoniker": "Visual\\Entities\\ListadoNotas\\ListadoNotas.Designer.cs",
@@ -260,77 +497,11 @@
               "RelativeToolTip": "Visual\\Entities\\ListadoNotas\\ListadoNotas.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:08:32.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T00:08:32.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Inscripcion.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Inscripcion\\Inscripcion.Designer.cs",
-              "RelativeDocumentMoniker": "Visual\\Entities\\Inscripcion\\Inscripcion.Designer.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Inscripcion\\Inscripcion.Designer.cs",
-              "RelativeToolTip": "Visual\\Entities\\Inscripcion\\Inscripcion.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T23:58:26.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Notas.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Notas\\Notas.Designer.cs",
-              "RelativeDocumentMoniker": "Visual\\Entities\\Notas\\Notas.Designer.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Notas\\Notas.Designer.cs",
-              "RelativeToolTip": "Visual\\Entities\\Notas\\Notas.Designer.cs",
-              "ViewState": "AgIAAOoAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:05:05.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Curso.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Curso\\Curso.Designer.cs",
-              "RelativeDocumentMoniker": "Visual\\Entities\\Curso\\Curso.Designer.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Curso\\Curso.Designer.cs",
-              "RelativeToolTip": "Visual\\Entities\\Curso\\Curso.Designer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:01:54.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Notas.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Notas\\Notas.cs",
-              "RelativeDocumentMoniker": "Visual\\Entities\\Notas\\Notas.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Notas\\Notas.cs",
-              "RelativeToolTip": "Visual\\Entities\\Notas\\Notas.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwBgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:08:08.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Planilladenotas.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Planilladenotas\\Planilladenotas.cs",
-              "RelativeDocumentMoniker": "Visual\\Entities\\Planilladenotas\\Planilladenotas.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Planilladenotas\\Planilladenotas.cs",
-              "RelativeToolTip": "Visual\\Entities\\Planilladenotas\\Planilladenotas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:28:38.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Program.cs",
               "RelativeDocumentMoniker": "Visual\\Program.cs",
@@ -338,38 +509,11 @@
               "RelativeToolTip": "Visual\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:12:52.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T00:12:52.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Reportes.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Reportes\\Reportes.cs",
-              "RelativeDocumentMoniker": "Visual\\Entities\\Reportes\\Reportes.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Reportes\\Reportes.cs",
-              "RelativeToolTip": "Visual\\Entities\\Reportes\\Reportes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:28:22.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Main\\MainForm.cs",
-              "RelativeDocumentMoniker": "Visual\\Main\\MainForm.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Main\\MainForm.cs",
-              "RelativeToolTip": "Visual\\Main\\MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:12:32.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "Mantenimiento.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Mantenimiento\\Mantenimiento.cs",
               "RelativeDocumentMoniker": "Visual\\Entities\\Mantenimiento\\Mantenimiento.cs",
@@ -377,51 +521,11 @@
               "RelativeToolTip": "Visual\\Entities\\Mantenimiento\\Mantenimiento.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAYwBYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:07:57.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T00:07:57.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ListadoNotas.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\ListadoNotas\\ListadoNotas.cs",
-              "RelativeDocumentMoniker": "Visual\\Entities\\ListadoNotas\\ListadoNotas.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\ListadoNotas\\ListadoNotas.cs",
-              "RelativeToolTip": "Visual\\Entities\\ListadoNotas\\ListadoNotas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:08:44.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Persona\\Persona.cs",
-              "RelativeDocumentMoniker": "Visual\\Entities\\Persona\\Persona.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Persona\\Persona.cs",
-              "RelativeToolTip": "Visual\\Entities\\Persona\\Persona.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAqwIwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:10:12.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PersonaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\PersonaRepository.cs",
-              "RelativeDocumentMoniker": "Visual\\Data\\Repositories\\PersonaRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\PersonaRepository.cs",
-              "RelativeToolTip": "Visual\\Data\\Repositories\\PersonaRepository.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAqwKIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:07:38.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "MateriaRepository.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Data\\Repositories\\MateriaRepository.cs",
               "RelativeDocumentMoniker": "Visual\\Data\\Repositories\\MateriaRepository.cs",
@@ -429,12 +533,11 @@
               "RelativeToolTip": "Visual\\Data\\Repositories\\MateriaRepository.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAAAqwIkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:07:20.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T00:07:20.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "Materia.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Materia\\Materia.cs",
               "RelativeDocumentMoniker": "Visual\\Entities\\Materia\\Materia.cs",
@@ -442,34 +545,7 @@
               "RelativeToolTip": "Visual\\Entities\\Materia\\Materia.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:04:46.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Curso.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Curso\\Curso.cs",
-              "RelativeDocumentMoniker": "Visual\\Entities\\Curso\\Curso.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Curso\\Curso.cs",
-              "RelativeToolTip": "Visual\\Entities\\Curso\\Curso.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:02:07.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Inscripcion.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Inscripcion\\Inscripcion.cs",
-              "RelativeDocumentMoniker": "Visual\\Entities\\Inscripcion\\Inscripcion.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Visual\\VisualEscuela\\Visual\\Entities\\Inscripcion\\Inscripcion.cs",
-              "RelativeToolTip": "Visual\\Entities\\Inscripcion\\Inscripcion.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAqwEcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T23:58:54.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T00:04:46.068Z"
             }
           ]
         }

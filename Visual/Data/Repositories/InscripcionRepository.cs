@@ -1,4 +1,4 @@
-using Npgsql;
+﻿using Npgsql;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
@@ -140,6 +140,48 @@ namespace Visual.Data.Repositories
                 }
             }
             return results;
+        }
+
+        public List<dynamic> GetEstudiantesByMateria(int materiaId)
+        {
+            var results = new List<dynamic>();
+            var queries = LoadQueries();
+            using (var conn = DBConnection.GetConnection())
+            {
+                conn.Open();
+                using (var cmd = new NpgsqlCommand(queries["GetEstudiantesByMateria"], conn))
+                {
+                    cmd.Parameters.AddWithValue("materia_id", materiaId);
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            results.Add(new
+                            {
+                                Id = reader.GetInt32(0),
+                                CI = reader.GetString(1),
+                                Nombre = reader.GetString(2)
+                            });
+                        }
+                    }
+                }
+            }
+            return results;
+        }
+
+        public int GetInscripcionIdByEstudiante(int estudianteId)
+        {
+            var queries = LoadQueries();
+            using (var conn = DBConnection.GetConnection())
+            {
+                conn.Open();
+                using (var cmd = new NpgsqlCommand(queries["GetInscripcionIdByEstudiante"], conn))
+                {
+                    cmd.Parameters.AddWithValue("estudiante_id", estudianteId);
+                    var result = cmd.ExecuteScalar();
+                    return result != null ? Convert.ToInt32(result) : 0;
+                }
+            }
         }
     }
 }

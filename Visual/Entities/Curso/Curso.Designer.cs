@@ -5,8 +5,8 @@
         private Label lblTitulo;
         private Label lblMateria;
         private Label lblSeccion;
-        private TextBox txtMateria;
-        private TextBox txtSeccion;
+        private ComboBox cboMateria;
+        private ComboBox cboSeccion;
         private Button btnGuardar;
         private Button btnBuscar;
         private Button btnActualizar;
@@ -26,8 +26,8 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblMateria = new System.Windows.Forms.Label();
             this.lblSeccion = new System.Windows.Forms.Label();
-            this.txtMateria = new System.Windows.Forms.TextBox();
-            this.txtSeccion = new System.Windows.Forms.TextBox();
+            this.cboMateria = new System.Windows.Forms.ComboBox();
+            this.cboSeccion = new System.Windows.Forms.ComboBox();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
@@ -57,11 +57,13 @@
             this.lblMateria.TabIndex = 1;
             this.lblMateria.Text = "Materia:";
 
-            // txtMateria
-            this.txtMateria.Location = new System.Drawing.Point(90, 77);
-            this.txtMateria.Name = "txtMateria";
-            this.txtMateria.Size = new System.Drawing.Size(300, 23);
-            this.txtMateria.TabIndex = 2;
+            // cboMateria
+            this.cboMateria.FormattingEnabled = true;
+            this.cboMateria.Location = new System.Drawing.Point(90, 77);
+            this.cboMateria.Name = "cboMateria";
+            this.cboMateria.Size = new System.Drawing.Size(300, 23);
+            this.cboMateria.TabIndex = 2;
+            this.cboMateria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 
             // lblSeccion
             this.lblSeccion.AutoSize = true;
@@ -71,11 +73,13 @@
             this.lblSeccion.TabIndex = 3;
             this.lblSeccion.Text = "Sección:";
 
-            // txtSeccion
-            this.txtSeccion.Location = new System.Drawing.Point(90, 117);
-            this.txtSeccion.Name = "txtSeccion";
-            this.txtSeccion.Size = new System.Drawing.Size(300, 23);
-            this.txtSeccion.TabIndex = 4;
+            // cboSeccion
+            this.cboSeccion.FormattingEnabled = true;
+            this.cboSeccion.Location = new System.Drawing.Point(90, 117);
+            this.cboSeccion.Name = "cboSeccion";
+            this.cboSeccion.Size = new System.Drawing.Size(300, 23);
+            this.cboSeccion.TabIndex = 4;
+            this.cboSeccion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 
             // btnGuardar
             this.btnGuardar.Location = new System.Drawing.Point(30, 160);
@@ -153,9 +157,9 @@
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnGuardar);
-            this.Controls.Add(this.txtSeccion);
+            this.Controls.Add(this.cboSeccion);
             this.Controls.Add(this.lblSeccion);
-            this.Controls.Add(this.txtMateria);
+            this.Controls.Add(this.cboMateria);
             this.Controls.Add(this.lblMateria);
             this.Controls.Add(this.lblTitulo);
             this.Name = "Curso";

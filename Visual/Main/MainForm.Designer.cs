@@ -2,28 +2,12 @@
 {
     partial class MainForm
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        protected override void Dispose(bool disposing)
-        {
-            base.Dispose(disposing);
-        }
-
-        // Controles principales
         private MenuStrip menuStripMain;
-        private ToolStrip toolStripMain;
         private Panel panelContent;
         private StatusStrip statusStripMain;
         private ToolStripStatusLabel tsslStatus;
-
-        // Botones del ToolStrip
-        private ToolStripButton btnReportes;
-        private ToolStripButton btnMantenimiento;
-        private ToolStripButton btnInscripcion;
-        private ToolStripButton btnNotas;
 
         // Elementos del menú
         private ToolStripMenuItem reportesMenuItem;
@@ -48,16 +32,10 @@
             this.cursoMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inscripcionMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notasMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMain = new System.Windows.Forms.ToolStrip();
-            this.btnReportes = new System.Windows.Forms.ToolStripButton();
-            this.btnMantenimiento = new System.Windows.Forms.ToolStripButton();
-            this.btnInscripcion = new System.Windows.Forms.ToolStripButton();
-            this.btnNotas = new System.Windows.Forms.ToolStripButton();
             this.panelContent = new System.Windows.Forms.Panel();
             this.statusStripMain = new System.Windows.Forms.StatusStrip();
             this.tsslStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStripMain.SuspendLayout();
-            this.toolStripMain.SuspendLayout();
             this.statusStripMain.SuspendLayout();
             this.SuspendLayout();
 
@@ -79,11 +57,6 @@
             this.reportesMenuItem.Text = "Reportes";
 
             // mantenimientoMenuItem
-            this.mantenimientoMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.materiaMenuItem,
-            this.seccionMenuItem,
-            this.personaMenuItem,
-            this.cursoMenuItem});
             this.mantenimientoMenuItem.Name = "mantenimientoMenuItem";
             this.mantenimientoMenuItem.Size = new System.Drawing.Size(101, 20);
             this.mantenimientoMenuItem.Text = "Mantenimiento";
@@ -118,55 +91,11 @@
             this.notasMenuItem.Size = new System.Drawing.Size(49, 20);
             this.notasMenuItem.Text = "Notas";
 
-            // toolStripMain
-            this.toolStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnReportes,
-            this.btnMantenimiento,
-            this.btnInscripcion,
-            this.btnNotas});
-            this.toolStripMain.Location = new System.Drawing.Point(0, 24);
-            this.toolStripMain.Name = "toolStripMain";
-            this.toolStripMain.Size = new System.Drawing.Size(800, 25);
-            this.toolStripMain.TabIndex = 1;
-            this.toolStripMain.Text = "toolStrip1";
-
-            // btnReportes
-            this.btnReportes.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.btnReportes.Image = ((System.Drawing.Image)(resources.GetObject("btnReportes.Image")));
-            this.btnReportes.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Size = new System.Drawing.Size(57, 22);
-            this.btnReportes.Text = "Reportes";
-
-            // btnMantenimiento
-            this.btnMantenimiento.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.btnMantenimiento.Image = ((System.Drawing.Image)(resources.GetObject("btnMantenimiento.Image")));
-            this.btnMantenimiento.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnMantenimiento.Name = "btnMantenimiento";
-            this.btnMantenimiento.Size = new System.Drawing.Size(93, 22);
-            this.btnMantenimiento.Text = "Mantenimiento";
-
-            // btnInscripcion
-            this.btnInscripcion.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.btnInscripcion.Image = ((System.Drawing.Image)(resources.GetObject("btnInscripcion.Image")));
-            this.btnInscripcion.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnInscripcion.Name = "btnInscripcion";
-            this.btnInscripcion.Size = new System.Drawing.Size(71, 22);
-            this.btnInscripcion.Text = "Inscripción";
-
-            // btnNotas
-            this.btnNotas.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.btnNotas.Image = ((System.Drawing.Image)(resources.GetObject("btnNotas.Image")));
-            this.btnNotas.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnNotas.Name = "btnNotas";
-            this.btnNotas.Size = new System.Drawing.Size(41, 22);
-            this.btnNotas.Text = "Notas";
-
             // panelContent
             this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContent.Location = new System.Drawing.Point(0, 49);
+            this.panelContent.Location = new System.Drawing.Point(0, 24);
             this.panelContent.Name = "panelContent";
-            this.panelContent.Size = new System.Drawing.Size(800, 529);
+            this.panelContent.Size = new System.Drawing.Size(800, 554);
             this.panelContent.TabIndex = 2;
 
             // statusStripMain
@@ -189,15 +118,12 @@
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.Controls.Add(this.panelContent);
             this.Controls.Add(this.statusStripMain);
-            this.Controls.Add(this.toolStripMain);
             this.Controls.Add(this.menuStripMain);
             this.MainMenuStrip = this.menuStripMain;
             this.Name = "MainForm";
             this.Text = "Menú Principal";
             this.menuStripMain.ResumeLayout(false);
             this.menuStripMain.PerformLayout();
-            this.toolStripMain.ResumeLayout(false);
-            this.toolStripMain.PerformLayout();
             this.statusStripMain.ResumeLayout(false);
             this.statusStripMain.PerformLayout();
             this.ResumeLayout(false);

@@ -134,8 +134,8 @@ namespace Visual.Data.Repositories
                             results.Add(new
                             {
                                 Id = reader.GetInt32(0),
-                                CI = reader.GetString(1),
-                                Nombre = reader.GetString(2),
+                                Nombre = reader.GetString(2),  // Cambiado el orden
+                                CI = reader.GetString(1),      // CI ahora en tercera posición
                                 TipoId = reader.GetInt32(3)
                             });
                         }
@@ -158,6 +158,34 @@ namespace Visual.Data.Repositories
                     return result != null ? Convert.ToInt32(result) : 1;
                 }
             }
+        }
+
+        public List<dynamic> GetByTipo(int tipoId)
+        {
+            var results = new List<dynamic>();
+            var queries = LoadQueries();
+            using (var conn = DBConnection.GetConnection())
+            {
+                conn.Open();
+                using (var cmd = new NpgsqlCommand(queries["GetPersonasByTipo"], conn))
+                {
+                    cmd.Parameters.AddWithValue("tipo", tipoId);
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            results.Add(new
+                            {
+                                Id = reader.GetInt32(0),
+                                Nombre = reader.GetString(2),
+                                CI = reader.GetString(1),
+                                TipoId = reader.GetInt32(3)
+                            });
+                        }
+                    }
+                }
+            }
+            return results;
         }
     }
 }

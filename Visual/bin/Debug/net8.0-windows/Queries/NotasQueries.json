@@ -4,7 +4,8 @@
   "GetCalificacionByInscripcion": "SELECT * FROM calificacion WHERE inscripcion_id = @inscripcion",
   "UpdateCalificacion": "UPDATE calificacion SET calificacion_de = @nota WHERE calificacion_id = @id",
   "DeleteCalificacion": "DELETE FROM calificacion WHERE calificacion_id = @id",
-  "SearchCalificacion": "SELECT c.*, p.persona_no, m.materia_de FROM calificacion c JOIN inscripcion i ON c.inscripcion_id = i.inscripcion_id JOIN persona p ON i.persona_id = p.persona_id JOIN curso cu ON i.curso_id = cu.curso_id JOIN materia m ON cu.materia_id = m.materia_id WHERE p.persona_ci ILIKE @search OR p.persona_no ILIKE @search OR m.materia_de ILIKE @search",
+  "SearchCalificacion": "SELECT c.*, p.persona_no, p.persona_ci, m.materia_de FROM calificacion c JOIN inscripcion i ON c.inscripcion_id = i.inscripcion_id JOIN persona p ON i.persona_id = p.persona_id JOIN curso cu ON i.curso_id = cu.curso_id JOIN materia m ON cu.materia_id = m.materia_id WHERE p.persona_ci ILIKE @search OR p.persona_no ILIKE @search OR m.materia_de ILIKE @search",
   "ListadoNotas": "SELECT p.persona_ci AS \"CI\", p.persona_no AS \"Estudiante\", m.materia_de AS \"Materia\", c.calificacion_de AS \"Nota\" FROM calificacion c JOIN inscripcion i ON c.inscripcion_id = i.inscripcion_id JOIN persona p ON i.persona_id = p.persona_id JOIN curso cu ON i.curso_id = cu.curso_id JOIN materia m ON cu.materia_id = m.materia_id",
-  "GetInscripcionId": "SELECT i.inscripcion_id FROM inscripcion i JOIN persona p ON i.persona_id = p.persona_id WHERE p.persona_ci = @ci"
+  "GetInscripcionId": "SELECT i.inscripcion_id FROM inscripcion i JOIN persona p ON i.persona_id = p.persona_id WHERE p.persona_ci = @ci",
+  "PlanillaNotas": "SELECT m.materia_de AS \"Materia\", s.seccion_de AS \"Sección\", p.persona_no AS \"Estudiante\", c.calificacion_de AS \"Nota\" FROM calificacion c JOIN inscripcion i ON c.inscripcion_id = i.inscripcion_id JOIN persona p ON i.persona_id = p.persona_id JOIN curso cu ON i.curso_id = cu.curso_id JOIN materia m ON cu.materia_id = m.materia_id JOIN seccion s ON cu.seccion_id = s.seccion_id"
 }
